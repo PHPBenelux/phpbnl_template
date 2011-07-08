@@ -22,12 +22,12 @@ header {
 
 header #logo {
     float: left;
-    margin: 20px;
+    margin: 13px;
 }
 
 header #search {
     float: right;
-    margin: 10px;
+    margin: 13px;
 }
 
 nav#mainmenu {
@@ -42,7 +42,8 @@ nav#mainmenu {
 }
 
 nav#mainmenu ul {
-    margin: 0;
+    width: 1090px;
+    margin: 0px auto;
     padding: 0;
     white-space: nowrap;
     list-style-type: none;
@@ -53,12 +54,6 @@ nav#mainmenu ul li {
     padding-right: 20px;
 }
 
-#siteheader h1 {
-    font-weight: bold;
-    font-size: 25px;
-    color: #a3cbdc;
-}
-
 aside {
     padding: 10px;
     width: 175px;
@@ -67,6 +62,17 @@ aside {
 aside h3 {
     width: 150px;
     padding: 5px;
+}
+
+#siteheader h1 {
+    font-weight: bold;
+    font-size: 25px;
+    color: #ECF5F7;
+}
+
+#siteheader input {
+    font-size: 16px;
+    background-color: #ECF5F7;
 }
 
 #siteheader input[type="submit"] {
@@ -201,6 +207,7 @@ article h2 {
 }
 
 #main {
+    padding:10px;
     display: block;
     width: 1090px;
     margin-top: -60px;
@@ -208,7 +215,8 @@ article h2 {
     margin-right: auto;
     margin-bottom: 0px;
     background-color: #FFF;
+    min-height: 400px;
     background-image: url(../images/mainleft), url(../images/mainright);
-    background-repeat: no-repeat;
     background-position: top left, top right;
+    background-repeat: no-repeat;
 }
